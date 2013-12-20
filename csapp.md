@@ -1,5 +1,6 @@
 #### 计算机系统漫游
 1.  All information in a system—including disk files, programs stored in memory, user data stored in memory, and data transferred across a network—is represented as a bunch of bits. The only thing that distinguishes different data objects is the context in which we view them. 
+
 #### 信息的表示和处理
     Rather than accessing individual bits in memory, most computers use blocks
     of eight bits, or bytes, as the smallest addressable unit of memory. A machine-
