@@ -32,5 +32,8 @@ double|8|8
 ![](https://raw.github.com/acmerfight/study_notes/master/images/B2T.png)
 
 ![](https://raw.github.com/acmerfight/study_notes/master/images/2.png)
+*   This relationship is useful for proving relationships between unsigned and two’s-complement arithmetic. In the two’s-complement representation of x, bit xw−1 determines whether or not x is negative, giving
 
+![](https://raw.github.com/acmerfight/study_notes/master/images/T2U.png)
 
+![](https://raw.github.com/acmerfight/study_notes/master/images/3.png)
