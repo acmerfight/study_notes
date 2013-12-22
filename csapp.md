@@ -22,12 +22,12 @@ double|8|8
 5.  machines support two forms of right shift: logical and arithmetic. A logical right shift fills the left end with k zeros, giving a result [0, . . . , 0, xn−1, xn−2 , . . . xk ]. An arithmetic right shift fills the left end with k repetitions of the most significant bit, giving a result [xn−1, . . . , xn−1, xn−1, xn−2 , . . . xk ].This convention might seem peculiar, but as we will see it is useful for operating on signed integer data.
 
 ##### Integer Representations
-1.  Treating x as a number written in binary notation, we obtain the unsigned interpretation of x. We express this interpretation as a function B2Uw (for “binary to unsigned,” length w)
+*   Treating x as a number written in binary notation, we obtain the unsigned interpretation of x. We express this interpretation as a function B2Uw (for “binary to unsigned,” length w)
 
 ![](https://raw.github.com/acmerfight/study_notes/master/images/B2U.png)
 
 ![](https://raw.github.com/acmerfight/study_notes/master/images/uexample.png)
-2.  This is defined by interpreting the most significant bit of the word to have negative weight. We express this interpretation as a function B2Tw.The most significant bit xw−1 is also called the sign bit. Its “weight” is − 2w−1, the negation of its weight in an unsigned representation. When the sign bit is set to 1, the represented value is negative, and when set to 0 the value is nonnegative.
+*   This is defined by interpreting the most significant bit of the word to have negative weight. We express this interpretation as a function B2Tw.The most significant bit xw−1 is also called the sign bit. Its “weight” is − 2w−1, the negation of its weight in an unsigned representation. When the sign bit is set to 1, the represented value is negative, and when set to 0 the value is nonnegative.
 
 ![](https://raw.github.com/acmerfight/study_notes/master/images/B2T.png)
 
