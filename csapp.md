@@ -38,5 +38,21 @@ double|8|8
 
 ![](https://raw.github.com/acmerfight/study_notes/master/images/3.png)
 *   To convert an unsigned number to a larger data type, we can simply add leading zeros to the representation; this operation is known as zero extension. For converting a two’s-complement number to a larger data type, the rule is to perform a sign extension,
+##### Integer Arithmetic
+*   unsigned addition
+
+![](https://raw.github.com/acmerfight/study_notes/master/images/addu.png)
+
+![](https://raw.github.com/acmerfight/study_notes/master/images/addu1.png)
+*   Two’s-Complement Addition
+
+![](https://raw.github.com/acmerfight/study_notes/master/images/adds.png)
+
+![](https://raw.github.com/acmerfight/study_notes/master/images/adds1.png)
+*   Unsigned Multiplication and Two’s-Complement Multiplication  
+    (x * y) mod 2**w
+*   On most machines, the integer multiply instruction is fairly slow, requiring 10 or more clock cycles, whereas other integer operations—such as addition, subtraction, bit-level operations, and shifting—require only 1 clock cycle. As a consequence, one important optimization used by compilers is to attempt to replace multiplications by constant factors with combinations of shift and addition operations.
+*   Given that integer multiplication is much more costly than shifting and adding, many C compilers try to remove many cases where an integer is being multiplied by a constant with combinations of shifting, adding, and subtracting.
+*   Integer division on most machines is even slower than integer multiplication requiring 30 or more clock cycles. Dividing by a power of 2 can also be performed using shift operations, but we use a right shift rather than a left shift. The two different shifts—logical and arithmetic—serve this purpose for unsigned and two’s-complement numbers, respectively.
 
 
