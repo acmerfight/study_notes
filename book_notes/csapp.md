@@ -56,4 +56,24 @@ double|8|8
 *   Given that integer multiplication is much more costly than shifting and adding, many C compilers try to remove many cases where an integer is being multiplied by a constant with combinations of shifting, adding, and subtracting.
 *   Integer division on most machines is even slower than integer multiplication requiring 30 or more clock cycles. Dividing by a power of 2 can also be performed using shift operations, but we use a right shift rather than a left shift. The two different shifts—logical and arithmetic—serve this purpose for unsigned and two’s-complement numbers, respectively.
 
+##### Floating Point
+*   The symbol ‘.’ now becomes a binary point, with bits on the left being weighted by positive powers of 2, and those on the right being weighted by negative powers of 2. For example, 101.112 represents the number 1 × 2**2 + 0 × 2*1 + 1 × 2*0 + 1 × 2**−1 + 1 × 2**−2 = 4 + 0 + 1 + 2 + 4 = 5+3/4
+
+![](https://raw.github.com/acmerfight/study_notes/master/images/f1.png)
+
+![](https://raw.github.com/acmerfight/study_notes/master/images/f2.png)
+*   The IEEE floating-point standard represents a number in a form V = (−1)**s × M × 2**E:
+    *   The sign s determines whether the number is negative (s = 1) or positive
+        (s = 0), where the interpretation of the sign bit for numeric value 0 is handled
+        as a special case.
+    *   The significand M is a fractional binary number that ranges either between 1 and 2 − e or between 0 and 1 − e.
+    *   The exponent E weights the value by a (possibly negative) power of 2.
+
+*   The bit representation of a floating-point number is divided into three fields to encode these values:
+    *   The single sign bit s directly encodes the sign s.
+    *   The k-bit exponent field exp = ek−1 . . . e1e0 encodes the exponent E
+    *   The n-bit fraction field frac = fn−1 . . . f1f0 encodes the significand M, but the value encoded also depends on whether or not the exponent field equals 0.
+    *   ![](https://raw.github.com/acmerfight/study_notes/master/images/f3.png)
+
+
 
