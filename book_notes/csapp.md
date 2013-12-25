@@ -75,5 +75,7 @@ double|8|8
     *   The n-bit fraction field frac = fn−1 . . . f1f0 encodes the significand M, but the value encoded also depends on whether or not the exponent field equals 0.
     *   ![](https://raw.github.com/acmerfight/study_notes/master/images/f3.png)
 
+*   ![](https://raw.github.com/acmerfight/study_notes/master/images/f4.png)
+
 
 
