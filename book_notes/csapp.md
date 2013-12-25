@@ -38,6 +38,7 @@ double|8|8
 
 ![](https://raw.github.com/acmerfight/study_notes/master/images/3.png)
 *   To convert an unsigned number to a larger data type, we can simply add leading zeros to the representation; this operation is known as zero extension. For converting a two’s-complement number to a larger data type, the rule is to perform a sign extension,
+
 ##### Integer Arithmetic
 *   unsigned addition
 
