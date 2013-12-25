@@ -76,7 +76,6 @@ double|8|8
     *   ![](https://raw.github.com/acmerfight/study_notes/master/images/f3.png)
 
 *   
-
     ![](https://raw.github.com/acmerfight/study_notes/master/images/f4.png)
 
 
