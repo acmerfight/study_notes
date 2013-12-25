@@ -62,7 +62,7 @@ double|8|8
 ![](https://raw.github.com/acmerfight/study_notes/master/images/f1.png)
 
 ![](https://raw.github.com/acmerfight/study_notes/master/images/f2.png)
-*   The IEEE floating-point standard represents a number in a form V = (−1)**s × M × 2**E:
+*   The IEEE floating-point standard represents a number in a form V = (−1) pow s × M × 2 pow E:
     *   The sign s determines whether the number is negative (s = 1) or positive
         (s = 0), where the interpretation of the sign bit for numeric value 0 is handled
         as a special case.
