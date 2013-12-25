@@ -4,3 +4,4 @@
     *   [Information Storage](https://github.com/acmerfight/study_notes/blob/master/book_notes/csapp.md#information-storage)
     *   [Integer Representations](https://github.com/acmerfight/study_notes/blob/master/book_notes/csapp.md#integer-representations)
     *   [Integer Arithmetic](https://github.com/acmerfight/study_notes/blob/master/book_notes/csapp.md#integer-arithmetic)
+    *   [Floating Point](https://github.com/acmerfight/study_notes/blob/master/book_notes/csapp.md#floating-point)
