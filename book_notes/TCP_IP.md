@@ -1,4 +1,6 @@
 ##### 链路层
+*    TCP传给IP的数据单元称作TCP报文段或简称为 TCP段(TCP segment) 传给网络接口层的数据单元称作 IP数据报(IP datagram)。通过以太网传输的比特流称作帧(Frame)。
+
 *   链路层主要有三个目的:
     *   为IP模块发送和接收IP数据报
     *   为ARP模块发送ARP请求和接收ARP应答
